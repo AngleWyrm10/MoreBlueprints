@@ -10,6 +10,8 @@
 	<modDependencies>
 		<li>
 			<packageId>Haplo.Miscellaneous.MapGenerator</packageId>
+			<displayName>Misc. MapGenerator</displayName>
+			<steamWorkshopUrl>steam://https://steamcommunity.com/sharedfiles/filedetails/?id=704182588</steamWorkshopUrl>			
 		</li>
 	</modDependencies>
 </ModMetaData>
