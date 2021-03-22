@@ -1,4 +1,14 @@
 <Manifest>
     <Identifier>AngleWyrm.MoreBlueprints</Identifier>
     <Version>2021.3.221</Version>
+ 
+    <dependencies>
+        <li>Haplo.Miscellaneous.MapGenerator</li>
+    </dependencies>
+    <loadAfter>
+        <li>Haplo.Miscellaneous.MapGenerator</li>
+    </loadAfter>
+
+    <manifestUri>https://raw.githubusercontent.com/AngleWyrm10/MoreBlueprints/master/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/AngleWyrm10/MoreBlueprints/releases/latest</downloadUri>    
 </Manifest>
