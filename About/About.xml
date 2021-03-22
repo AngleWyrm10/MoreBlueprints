@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>More Blueprints</name>
+	<author>AngleWyrm</author>
+	<supportedVersions>
+		<li>1.2</li>
+	</supportedVersions>
+	<packageId>AngleWyrm.MoreBlueprints</packageId>
+	<description>More blueprints for Misc. MapGenerator</description>
+	<modDependencies>
+		<li>
+			<packageId>Haplo.Miscellaneous.MapGenerator</packageId>
+		</li>
+	</modDependencies>
+</ModMetaData>
