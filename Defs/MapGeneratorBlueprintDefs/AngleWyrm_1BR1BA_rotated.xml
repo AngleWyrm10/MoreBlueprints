@@ -9,7 +9,7 @@
     -->
 	<MapGenerator.MapGeneratorBlueprintDef Name="AngleWyrm_1BR1BA_rotated">
 		<defName>AngleWyrm_1BR1BA_ruins_rotated</defName>
-		<chance>10</chance>
+		<chance>40</chance>
 		<size>7,10</size>
 		<canHaveHoles>true</canHaveHoles>
 		<createTrigger>true</createTrigger>
@@ -124,7 +124,7 @@
 	-->
 	<MapGenerator.MapGeneratorBlueprintDef ParentName = "AngleWyrm_1BR1BA_rotated">
 		<defName>AngleWyrm_1BR1BA_pristine_rotated</defName>
-		<chance>5</chance>
+		<chance>10</chance>
 		<canHaveHoles>false</canHaveHoles>
 	
 		<!-- Loot -->
@@ -156,7 +156,7 @@
     -->
     <MapGenerator.MapGeneratorBlueprintDef ParentName = "AngleWyrm_1BR1BA_rotated">
 		<defName>AngleWyrm_1BR1BA_rats_rotated</defName>
-		<chance>5</chance>
+		<chance>20</chance>
 
         <!-- rats live here -->
 		<pawnData> 
@@ -187,7 +187,7 @@
     -->
     <MapGenerator.MapGeneratorBlueprintDef ParentName = "AngleWyrm_1BR1BA_rotated">
 		<defName>AngleWyrm_1BR1BA_spider_rotated</defName>
-		<chance>5</chance>
+		<chance>20</chance>
 
         <!-- spider lives here -->
 		<pawnData> 
