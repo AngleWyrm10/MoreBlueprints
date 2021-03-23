@@ -7,7 +7,7 @@
     <!-- 
         Ruined version 
     -->
-	<MapGenerator.MapGeneratorBlueprintDef Name="AngleWyrm_1BR1BA">
+	<MapGenerator.MapGeneratorBlueprintDef Name="AngleWyrm_1BR1BA_rotated">
 		<defName>AngleWyrm_1BR1BA_ruins_rotated</defName>
 		<chance>10</chance>
 		<size>7,10</size>
@@ -122,7 +122,7 @@
 	<!-- 
 		Pristine version
 	-->
-	<MapGenerator.MapGeneratorBlueprintDef ParentName = "AngleWyrm_1BR1BA">
+	<MapGenerator.MapGeneratorBlueprintDef ParentName = "AngleWyrm_1BR1BA_rotated">
 		<defName>AngleWyrm_1BR1BA_pristine_rotated</defName>
 		<chance>5</chance>
 		<canHaveHoles>false</canHaveHoles>
@@ -154,7 +154,7 @@
     <!-- 
         Rat's Nest version 
     -->
-    <MapGenerator.MapGeneratorBlueprintDef ParentName = "AngleWyrm_1BR1BA">
+    <MapGenerator.MapGeneratorBlueprintDef ParentName = "AngleWyrm_1BR1BA_rotated">
 		<defName>AngleWyrm_1BR1BA_rats_rotated</defName>
 		<chance>5</chance>
 
@@ -185,7 +185,7 @@
     <!-- 
         Rim of Madness - Arachnophobia version 
     -->
-    <MapGenerator.MapGeneratorBlueprintDef ParentName = "AngleWyrm_1BR1BA">
+    <MapGenerator.MapGeneratorBlueprintDef ParentName = "AngleWyrm_1BR1BA_rotated">
 		<defName>AngleWyrm_1BR1BA_spider_rotated</defName>
 		<chance>5</chance>
 
