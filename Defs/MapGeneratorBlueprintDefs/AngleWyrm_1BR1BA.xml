@@ -101,10 +101,14 @@
             wwwwwwwwww
 		</itemData>
 		<itemLegend>
+		<!-- Soft Warm Beds bedding disabled until issue #1 is resolved
+		     https://github.com/AngleWyrm10/MoreBlueprints/issues/1
+
 			<li>
-				<key>s</key> 				 <!-- Soft Warm Beds -->
-				<value>SingleBedding</value> <!-- bed sheets -->
+				<key>s</key> 				 
+				<value>SingleBedding</value>
 			</li>
+		-->
 		</itemLegend>
 		<itemSpawnChance>50</itemSpawnChance>
 	</MapGenerator.MapGeneratorBlueprintDef>

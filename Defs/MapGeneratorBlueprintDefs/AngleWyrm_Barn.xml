@@ -33,6 +33,10 @@
                 <value>Wall</value>
             </li>
             <li>
+                <key>d</key>
+                <value>Door</value>
+            </li>
+            <li>
                 <key>f</key>        <!-- Architect Expanded wooden farm fence -->
                 <value>Farm</value>
             </li>
