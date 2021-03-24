@@ -9,7 +9,7 @@
     -->
     <MapGenerator.MapGeneratorBlueprintDef Name="AngleWyrm_Viking_Barracks">
         <defName>AngleWyrm_Viking_Barracks</defName>
-        <chance>1120</chance>
+        <chance>20</chance>
         <size>14,9</size>
         <canHaveHoles>true</canHaveHoles>
         <createTrigger>true</createTrigger>
