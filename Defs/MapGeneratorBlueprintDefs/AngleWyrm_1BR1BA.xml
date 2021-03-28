@@ -119,7 +119,7 @@
 	-->
 	<MapGenerator.MapGeneratorBlueprintDef ParentName = "AngleWyrm_1BR1BA">
 		<defName>AngleWyrm_1BR1BA_pristine</defName>
-		<chance>10</chance>
+		<chance>40</chance>
 		<canHaveHoles>false</canHaveHoles>
 	
 		<!-- Loot -->
