@@ -9,7 +9,7 @@
     -->
     <version>2021.3.27</version> 
 
-    <!-- These links are for notifying the user when a new release is available -->
+    <!-- These links trigger the new version available alert in Mod Manager -->
     <manifestUri>https://raw.githubusercontent.com/AngleWyrm10/MoreBlueprints/master/About/Manifest.xml</manifestUri>
     <downloadUri>https://github.com/AngleWyrm10/MoreBlueprints/releases/latest</downloadUri>    
 </Manifest>
