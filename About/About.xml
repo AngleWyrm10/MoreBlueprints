@@ -2,15 +2,17 @@
 <ModMetaData>
 	<name>More Ruins Blueprints</name>
 	<author>AngleWyrm</author>
-	<supportedVersions>
+	<packageId>AngleWyrm.MoreBlueprints</packageId> <!-- common practice to use author name as a namespace in which the mod resides -->
+
+	<description>More blueprints for Misc. MapGenerator</description> <!-- appears in mod list -->
+
+	<supportedVersions> <!-- used by version check warning -->
 		<li>1.2</li>
 	</supportedVersions>
-	<packageId>AngleWyrm.MoreBlueprints</packageId>
-	<description>More blueprints for Misc. MapGenerator</description>
-	<modDependencies>
+	<modDependencies> <!-- used to pop up a warning if prerequisite mods aren't loaded -->
 		<li>
-			<packageId>Haplo.Miscellaneous.MapGenerator</packageId>
 			<displayName>Misc. MapGenerator</displayName>
+			<packageId>Haplo.Miscellaneous.MapGenerator</packageId>
 			<steamWorkshopUrl>steam://https://steamcommunity.com/sharedfiles/filedetails/?id=704182588</steamWorkshopUrl>			
 		</li>
 	</modDependencies>
