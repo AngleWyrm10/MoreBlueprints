@@ -6,7 +6,7 @@
 
 	<description>More blueprints for Misc. MapGenerator</description> <!-- appears in mod list -->
 
-	<supportedVersions> <!-- used by version check warning -->
+	<supportedVersions> <!-- used by version check warning, and appears in Steam workshop as a version compatibility tag -->
 		<li>1.2</li>
 	</supportedVersions>
 
