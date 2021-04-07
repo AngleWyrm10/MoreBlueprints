@@ -9,11 +9,24 @@
 	<supportedVersions> <!-- used by version check warning -->
 		<li>1.2</li>
 	</supportedVersions>
-	<modDependencies> <!-- used to pop up a warning if prerequisite mods aren't loaded -->
+
+	<modDependencies> <!-- used to pop up a warning and options if prerequisite mods aren't loaded -->
 		<li>
 			<displayName>Misc. MapGenerator</displayName>
 			<packageId>Haplo.Miscellaneous.MapGenerator</packageId>
 			<steamWorkshopUrl>steam://https://steamcommunity.com/sharedfiles/filedetails/?id=704182588</steamWorkshopUrl>			
 		</li>
 	</modDependencies>
+	<!-- 
+		 Adopted from Mod Manager, these next two settings are used by both vanilla and Mod Manager
+	     to alert the player of incorrect mod load order, and allow the auto-sort button to do it's job
+
+		 It is better to put the mod dependencies and mod load order here in About.xml, and not repeat them in Manifest.xml
+		 Duplicate code creates opportunity to change one but not the other, and the fewer opportunities for trouble to arise the better.
+		 Pre-bug hunting ounce of prevention
+	-->
+	<loadBefore></loadBefore>
+	<loadAfter>
+		<li>Haplo.Miscellaneous.MapGenerator</li> <!-- Although it is possible to use a numeric id here, it is less comprehensible -->
+	</loadAfter>
 </ModMetaData>
