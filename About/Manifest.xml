@@ -1,6 +1,6 @@
 <Manifest>
     <identifier>AngleWyrm.MoreBlueprints</identifier>
-    <version>2021.12.15</version>
+    <version>2023.02.03</version>
  
     <dependencies>
         <li>Haplo.Miscellaneous.MapGenerator</li>
